@@ -1,0 +1,133 @@
+.bodyback{
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    padding: 50px;
+  }
+  /* .bodyback{
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    padding: 50px;
+  } */
+  .box{
+    margin: 0 auto;
+    box-shadow: 0 5px 70px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    border-radius: 9px;
+    background-color: rgb(240, 214, 214);
+    padding: 20px;
+  }
+  .box2{
+    margin: 0 auto;
+    box-shadow: 0 5px 70px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    border-radius: 9px;
+    background-color: white;
+    padding: 20px;
+  }
+  h1{
+    text-align: center;
+  }
+  form1{
+    text-align: center;
+  }
+  .btn{
+    padding: 4px;
+    border-radius: 3px;
+    width: 90px;
+    margin: 0px 10px;
+    background-color: #4073736e;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: #6e88886e;
+  }
+  .inpt{
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 5px;
+  }
+  select[id="Country Code"]{
+    border-radius: 4px;
+    width: 12%;
+    margin-top: 5px;
+  }
+input[type=tel]{
+  border-radius: 4px;
+  width: 85%;
+  margin-top: 5px;
+}
+input[type=date]{
+  border-radius: 5px;
+  width: 25%;
+  margin-top: 5px;
+}
+a{
+  display: flex;
+  justify-content: right;
+}
+.payform{
+  text-align: left;
+}
+.payforlabel{
+  float: left;
+  width: 60%;
+}
+.amountlabel{
+  float: right;
+  width: 40%;
+}
+.inline input{
+  border: none;
+  border-color: white;
+  width: 65%;
+}
+.inline select{
+  border: none;
+  border-color: white;
+  width: 100%;
+  height: 100%;
+}
+textarea{
+  width: 98%;
+  margin-top: 5px;
+}
+
+.circle{
+  display: flex;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #74f051;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.checkmark{
+display: flex;
+background-color: transparent;
+margin: 10px;
+padding: 40px;
+height: 60px;
+width: 50px;
+transform: rotate(45deg);
+border: 1px black;
+justify-content: right;
+align-items: flex-end;
+}
+.tick1{
+height: 15px;
+width: 18px;
+background-color: #ccc;
+border: 1px solid #ccc;
+}
+.tick2{
+height: 60px;
+width: 15px;
+background-color: #ccc;
+border: 1px solid #ccc;
+}
+
+.payment-conformation{
+  font-size: larger;
+  color: darkcyan;
+}
